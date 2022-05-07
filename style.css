@@ -113,8 +113,50 @@ a:visited {
 /* Information section */
 .upper {
     border: red solid 2px;
-
+    background-color: #f9faf8;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upper-1 {
+
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 36px;
+}
+
+.info {
+    display: flex;
+    flex: 1;
+    align-self: center;
+    width: 900px;
+    justify-content: space-around;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 225px;
+    width: 200px;
+    text-align: center;
+    flex-grow: 0;
+}
+
+.box {
+    border: #3882f6 solid 4px;
+    border-radius: 8px;
+    display: flex;
+    flex-grow: 1;
+    margin-bottom: 6px;
+}
+
+.info-text {
+    height: auto;
+    width: 150px;
+    align-self: center;
 }
 
 /* Quote */
@@ -122,6 +164,8 @@ a:visited {
     border: red solid 2px;
 
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* Call to action */
