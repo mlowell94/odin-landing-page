@@ -1,6 +1,4 @@
 body {
-    border: red solid 2px;
-
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
@@ -112,7 +110,6 @@ a:visited {
 
 /* Information section */
 .upper {
-    border: red solid 2px;
     background-color: #f9faf8;
     display: flex;
     flex-direction: column;
@@ -162,7 +159,6 @@ a:visited {
 
 /* Quote */
 .quote {
-    border: red solid 2px;
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
@@ -186,14 +182,43 @@ a:visited {
 }
 /* Call to action */
 .cta {
-    border: red solid 2px;
-
+    color: #f9faf8;
     display: flex;
+    justify-content: center;
+    margin: 96px;
+}
+
+.cta-box {
+    background-color: #3882f6;
+    display: flex;
+    padding: 48px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.cta-box-l {
+    display: flex;
+    flex-direction: column;
+    margin-right: 192px;
+    
+}
+
+.cta-box-r {
+    display: flex;
+    border: #e5e7eb solid 2px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 10px;
 }
 
 /* Footer */
 .footer {
-    border: red solid 2px;
-
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 24px;
     display: flex;
+    justify-content: center;
 }
